@@ -1,0 +1,20 @@
+package packarreglos;
+
+import java.util.Scanner;
+
+public class EjemploArray1 {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		String[] cadena = new String[5];
+		
+		System.out.println("Escriba una palabra no mayor a 5 caracteres");
+		cadena[5] = read.toString();
+		
+		System.out.println("" + cadena[5]);
+		
+		read.close();
+	}
+
+}

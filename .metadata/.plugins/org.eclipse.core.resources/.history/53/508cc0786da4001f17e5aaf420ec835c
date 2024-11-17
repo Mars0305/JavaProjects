@@ -1,0 +1,5 @@
+package packarreglos;
+
+public interface prueba {
+
+}

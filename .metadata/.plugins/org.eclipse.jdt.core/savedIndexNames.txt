@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\mars0\Desktop\Conceptos de Lenguaje\Java\.metadata\.plugins\org.eclipse.jdt.core
+3057415531.index
+3338991254.index
+1036378410.index
+1865797976.index
+2787730724.index

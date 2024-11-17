@@ -1,0 +1,28 @@
+package packarreglos;
+import java.util.Scanner;
+
+public class HolaMundo 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner reader = new Scanner();
+		
+		System.out.println("Hola Mundo!!");
+		
+		System.out.println("Desea agregar otro texto? (s/n)");
+		String op = reader.nextLine();
+		
+		if (op == "s")
+		{
+			System.out.println("Ingrese el texto que desea agregar");
+			String frase = reader.nextLine();
+		}
+		else if (op == "n")
+		{
+			break;
+		}
+		reader.close();
+	}
+
+}
